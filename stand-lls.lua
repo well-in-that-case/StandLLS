@@ -339,8 +339,10 @@ function menu.command_box_get_dimensions() end
 --- @return boolean
 function menu.is_in_screenshot_mode() end
 
+--- @param command integer
+--- @param callback function
 --- @return integer
-function menu.on_tick_in_viewport() end
+function menu.on_tick_in_viewport(command, callback) end
 
 --- @param command integer
 --- @param callback function
@@ -683,6 +685,7 @@ function entities.get_user_personal_vehicle_as_handle() end
 
 --- Returns the address of the entity with the given script handle.
 --- @param handle integer
+--- @return integer
 function entities.handle_to_pointer(handle) end
 
 --- Returns a script handle for the entity with the given address.
