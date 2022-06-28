@@ -1136,6 +1136,7 @@ function util.draw_debug_text(text) end
 ---     util.BEGIN_TEXT_COMMAND_DISPLAY_HELP(message)
 ---     HUD.END_TEXT_COMMAND_DISPLAY_HELP(0, false, true, -1)
 --- end
+--- ```
 --- @param message string
 --- @return nil
 function util.show_corner_help(message) end
