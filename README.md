@@ -11,3 +11,6 @@ See this setting:
 ![Failed to load](https://i.imgur.com/LVgdtZH.png)
 
 Set it to the directory where you placed the `stand-lss.lua` file.
+
+## Native Intellisense
+You can try giving this a shot, but it's likely to grind VSC to a halt. The file is _massive_ and the Lua extension struggles to load it.
