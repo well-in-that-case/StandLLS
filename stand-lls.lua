@@ -60,7 +60,7 @@ function menu.list(parent, menu_name, command_names, help_text, on_click, on_bac
 
 --- Create a very basic clickable button inside menu `parent`.
 ---
---- `parm` may be any of:
+--- `perm` may be any of:
 --- - COMMANDPERM_FRIENDLY
 --- - COMMANDPERM_NEUTRAL
 --- - COMMANDPERM_SPAWN
