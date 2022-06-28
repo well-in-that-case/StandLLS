@@ -28,8 +28,9 @@ menu = {}
 function menu.my_root() end
 
 --- Returns a reference to the list that the given player owns.
+--- @param player_id integer
 --- @return integer
-function menu.player_root() end
+function menu.player_root(player_id) end
 
 --- Returns a reference to any command in Stand using a path such as Self>Immortality.
 --- Note that the path has to be in English (UK) and using the no-space greater-than separator.
