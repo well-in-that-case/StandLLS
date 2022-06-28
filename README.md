@@ -13,4 +13,4 @@ See this setting:
 Set it to the directory where you placed the `stand-lss.lua` file.
 
 ## Native Intellisense
-For some people, this may coerce VSC into consuming excessive amounts of memory, however the feature works fine. Feel free to install it the same way you've installed `stand-lls.lua`.
+For some people, this may coerce VSC into consuming excessive amounts of memory, however the feature works fine. Feel free to install `natives.lua` the same way you've installed `stand-lls.lua`, and it'll work out of the box.
