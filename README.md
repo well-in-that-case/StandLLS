@@ -6,11 +6,11 @@ Installation is remarkably simple. Download the `stand-lls.lua` file and place i
 
 Keep in mind, for the Lua extension to read the intellisense, it must be within the near directory structure of your root folder. Most people will open the `Lua Scripts` folder and work from there, which placing the file inside `lib` will work just fine. All that needs to happen is the file must be accessible from VSC, so the extension knows it exists & can process the Intellisense.
 
-Furthermore, you can link the lib folder as an external code library in the Lua extension for the Intellisense to work globally. 
+However, you can link the folder (where stand-lss.lua is) as an external code library in the Lua extension for the Intellisense to work everywhere. 
 See this setting:
 ![Failed to load](https://i.imgur.com/LVgdtZH.png)
 
-Set it to the directory where you placed the `stand-lss.lua` file.
+Set it to the directory where you placed the `stand-lss.lua` or `natives.lua` file.
 
 ## Native Intellisense
 For some people, this may coerce VSC into consuming excessive amounts of memory, however the feature works fine. Feel free to install `natives.lua` the same way you've installed `stand-lls.lua`, and it'll work out of the box.
