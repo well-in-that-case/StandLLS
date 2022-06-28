@@ -485,9 +485,8 @@ function players.on_join(callback) end
 function players.on_leave(callback) end
 
 --- Calls your join handler(s) for every player that is already in the session.
---- @param callback  function
 --- @return nil
-function players.dispatch_on_join(callback) end
+function players.dispatch_on_join() end
 
 --- Checks if a player with the given id is in session.
 --- @param player_id integer
